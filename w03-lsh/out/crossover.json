@@ -1,0 +1,54 @@
+{
+  "runs": [
+    {
+      "n": 250,
+      "brute_s": 0.2508423998951912,
+      "brute_calls": 31125,
+      "brute_peak_bytes": 7304,
+      "lsh_s": 1.4809158998541534,
+      "lsh_calls": 1,
+      "lsh_peak_bytes": 1767449
+    },
+    {
+      "n": 500,
+      "brute_s": 1.012103300075978,
+      "brute_calls": 124750,
+      "brute_peak_bytes": 7816,
+      "lsh_s": 2.4818936998490244,
+      "lsh_calls": 8,
+      "lsh_peak_bytes": 2817672
+    },
+    {
+      "n": 1000,
+      "brute_s": 5.472590799909085,
+      "brute_calls": 499500,
+      "brute_peak_bytes": 9352,
+      "lsh_s": 4.369895299896598,
+      "lsh_calls": 28,
+      "lsh_peak_bytes": 4785672
+    },
+    {
+      "n": 2000,
+      "brute_s": 20.849931799806654,
+      "brute_calls": 1999000,
+      "brute_peak_bytes": 21256,
+      "lsh_s": 8.149644899880514,
+      "lsh_calls": 108,
+      "lsh_peak_bytes": 8503256
+    },
+    {
+      "n": 4000,
+      "brute_s": 22.413294199854136,
+      "brute_calls": 2246140,
+      "brute_peak_bytes": 29608,
+      "lsh_s": 7.519995699869469,
+      "lsh_calls": 124,
+      "lsh_peak_bytes": 9053413
+    }
+  ],
+  "machine": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+    "python": "3.14.7"
+  }
+}
